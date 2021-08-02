@@ -105,15 +105,11 @@ class MainView: UIViewController {
                     var deleteArticles = try jsonDecoder.decode(ObjectHits.self, from: json.data(using: .utf8)!)
                     
                     for i in (0..<self.objectHits.articulos!.count).reversed() {
-                        
                         for j in 0..<deleteArticles.articulos!.count {
-                            
                             if self.objectHits.articulos![i].storyId == deleteArticles.articulos![j].storyId {
                                 self.objectHits.articulos?.remove(at: i)
                             }
-                            
-                        }
-                        
+                        }                        
                     }
                 }
                 
