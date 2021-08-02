@@ -43,7 +43,7 @@ _Este proyecto es netamente informativo para mostrar como poder aplicar el patr�
 
 _Al mismo tiempo lo mas coveniente durante el proceso de **eliminar articulos** es realizar el mismo por medio de un servicio web, en este proyecto se realiza de una forma no recomendada para proyectos en producción._
 
-##Linea de código a reemplazar:
+## Linea de código a reemplazar:
 
 ```swift
   private func processDataDelete() {
