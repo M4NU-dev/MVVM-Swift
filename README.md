@@ -41,7 +41,7 @@ Si ya cuentas con **CocoaPods** en tu Mac solo queda que abras tu terminal y te 
 
 _Este proyecto es netamente informativo para mostrar como poder aplicar el patrón **MVVM** usando el consumo de un servicio web de pruebas._
 
-_Al mismo tiempo lo mas coveniente durante el proceso de **eliminar articulos** es realizar el mismo por medio de un servicio web, en este proyecto se realiza de una forma no recomendada para proyectos en producción._
+_Al mismo tiempo lo mas conveniente durante el proceso de **eliminar articulos** es realizar el mismo por medio de un servicio web, en este proyecto se realiza de una forma no recomendada para proyectos en producción._
 
 ## Linea de código a reemplazar:
 
